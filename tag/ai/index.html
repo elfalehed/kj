@@ -9,8 +9,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="KMx404 | Programmer / Tech Enthusiast, Write-ups / Articles about cryptography / hacking topics that interest me." />
 <meta property="og:description" content="KMx404 | Programmer / Tech Enthusiast, Write-ups / Articles about cryptography / hacking topics that interest me." />
-<link rel="canonical" href="https://KMx404.github.io/tag/python/" />
-<meta property="og:url" content="https://KMx404.github.io/tag/python/" />
+<link rel="canonical" href="https://KMx404.github.io/tag/hacking/" />
+<meta property="og:url" content="https://KMx404.github.io/tag/hacking/" />
 <meta property="og:site_name" content="KMx404" />
 <script type="application/ld+json">
 {"description":"KMx404 | Programmer / Tech Enthusiast, Write-ups / Articles about cryptography / hacking topics that interest me.","@type":"WebPage","url":"https://KMx404.github.io/tag/python/","headline":"KMx404","@context":"http://schema.org"}</script>
@@ -19,7 +19,12 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" type="image/png" href="/assets/favicon.png" /><link type="application/atom+xml" rel="alternate" href="https://KMx404.github.io/feed.xml" title="KMx404" /><script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 </head><!-- Global site tag (gtag.js) - Google Analytics -->
-<br>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-97164925-2');
+</script>
 
 <body><div class="site-header">
   <div class="wrapper">
@@ -33,21 +38,28 @@
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <div class="author-box">
-		<img src="/avatar.png" class="author-avatar">
+    <img src="/avatar.png" class="author-avatar">
 
 <h7>
-	Mohamed E.Faleh<br>
-	Programmer / Tech enthusiast. <br>
-	Content Creator interested in sharing knowledge in tech . 
+  Mohamed E.Faleh<br>
+  Programmer / Tech enthusiast. <br>
+  Content Creator interested in sharing knowledge in tech . 
 </h7>
 </div>
 
-<h1 class="post-title">articles tagged with <a class="tag" href="/tag/python/">python</a>
+<h1 class="post-title">articles tagged with <a class="tag" href="/tag/ai/">Artificial intelligence</a>
 </h1>
-  <div class="post-links">
-  
-  
-  
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
   
   
   
@@ -57,8 +69,8 @@
   
   
 
-   <h2>All Tags</h2>
-    <div class="tag-cloud">
+    <h2>All Tags</h2>
+  <div class="tag-cloud">
  <a href="/tag/cryptography/" class="set-1">Cryptography</a> <a href="/tag/linux/" class="set-2">Linux</a> <a href="/tag/python/" class="set-1">Python</a> <a href="/tag/hacking/" class="set-2">Hacking</a> <a href="/tag/tools/" class="set-2">Tools</a> <a href="/tag/programming/" class="set-1">Programming</a>
     <a href="/tag/web/" class="set-1">Web</a> <a href="/tag/tutorials/" class="set-1">Tutorials</a> 
     <a href="/tag/networks/" class="set-1">Networks</a> <a href="/tag/hardware/" class="set-1">Hardware</a> 
@@ -71,7 +83,7 @@
 
       </div>
     </main><footer class="site-footer">
-	
+  
   <div class="wrapper">
 <div class="toggleWrapper">
     <input type="checkbox" class="dn" id="theme-toggle" onclick="modeSwitcher()" checked>
@@ -95,53 +107,51 @@ if (localStorage.getItem("theme") === null) {
 }
 const theme = localStorage.getItem('theme');
 if (theme === "dark") {
-	document.documentElement.setAttribute('data-theme', 'dark');
+  document.documentElement.setAttribute('data-theme', 'dark');
 }
 const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');
-
 if (theme === "dark") {
     document.getElementById('theme-toggle').checked = true;
     document.documentElement.setAttribute('data-theme', 'dark');
     document.documentElement.classList.add('theme--dark');
     document.documentElement.classList.remove('theme--light');
-	document.getElementById("theme-toggle").className = 'light';
+  document.getElementById("theme-toggle").className = 'light';
 } else if (theme === "light") {
     document.getElementById('theme-toggle').checked = false;
     document.documentElement.setAttribute('data-theme', 'light');
     document.documentElement.classList.add('theme--light');
     document.documentElement.classList.remove('theme--dark');
-	document.getElementById("theme-toggle").className = 'dark';
+  document.getElementById("theme-toggle").className = 'dark';
 } else if  (userPrefers === "dark") {
     document.getElementById('theme-toggle').checked = false;
     document.documentElement.setAttribute('data-theme', 'dark');
-	document.documentElement.classList.add('theme--dark');
+  document.documentElement.classList.add('theme--dark');
     document.documentElement.classList.remove('theme--light');
-	window.localStorage.setItem('theme', 'dark');
-	document.getElementById("theme-toggle").className = 'light';
+  window.localStorage.setItem('theme', 'dark');
+  document.getElementById("theme-toggle").className = 'light';
 } else {
     document.getElementById('theme-toggle').checked = true;
     document.documentElement.setAttribute('data-theme', 'light');
-	document.documentElement.classList.add('theme--light');
+  document.documentElement.classList.add('theme--light');
     document.documentElement.classList.remove('theme--dark');
-	window.localStorage.setItem('theme', 'light');
-	document.getElementById("theme-toggle").className = 'dark';
+  window.localStorage.setItem('theme', 'light');
+  document.getElementById("theme-toggle").className = 'dark';
 }
-
 function modeSwitcher() {
-	let currentMode = document.documentElement.getAttribute('data-theme');
-	if (currentMode === "dark") {
-	    document.documentElement.setAttribute('data-theme', 'light');
-		document.documentElement.classList.add('theme--light');
+  let currentMode = document.documentElement.getAttribute('data-theme');
+  if (currentMode === "dark") {
+      document.documentElement.setAttribute('data-theme', 'light');
+    document.documentElement.classList.add('theme--light');
         document.documentElement.classList.remove('theme--dark');
-		window.localStorage.setItem('theme', 'light');
-	    document.getElementById("theme-toggle").className = 'dark';
-	} else {
-	    document.documentElement.setAttribute('data-theme', 'dark');
-		document.documentElement.classList.add('theme--dark');
+    window.localStorage.setItem('theme', 'light');
+      document.getElementById("theme-toggle").className = 'dark';
+  } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    document.documentElement.classList.add('theme--dark');
         document.documentElement.classList.remove('theme--light');
-		window.localStorage.setItem('theme', 'dark');
-	    document.getElementById("theme-toggle").className = 'light';
-	}
+    window.localStorage.setItem('theme', 'dark');
+      document.getElementById("theme-toggle").className = 'light';
+  }
 }
 </script>
 </div>
