@@ -1,7 +1,7 @@
 @charset "UTF-8";
 div.wrapper {
   text-align: unset; }
-
+/** edited by @KMx404 **/ 
 @font-face {
   font-family: "Varela Round";
   src: url("/assets/fonts/VarelaRound-Regular.eot");
