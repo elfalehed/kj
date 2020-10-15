@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>form | Homework</title>
+    </head>
+
+    <body>
+        <h1 align="center">Inscription</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>Nom</td>
+                    <td> <input maxlength="25" name="nom"> </td>
+                </tr>
+                <tr>
+                    <td>Prenom</td>
+                    <td> <input maxlength="25" name="prenom"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                 
+                    <td>
+                        <input type="radio" name="gender"> Masculin
+                        <input type="radio" name="gender"> féminin
+                    </td>
+                </tr>
+                <tr>
+                    <td>Adresse</td>
+                    <td> <textarea name="adresse" cols="50" rows="10"></textarea> </td>
+                </tr> 
+                <tr>
+                    <td>Code Postal / Localité</td>
+                    <td> <input maxlength="4" name="localite"> </td>
+                </tr>
+                <tr>
+                    <td>Niveau d'études</td>
+                    <td>
+                        <select name="niveau">
+                            <option selected> Bac
+                            <option> Bac + 1
+                            <option> Bac + 
+                                                   </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Formation(s)</td>
+                    <td>
+                        <select name="formation" size="3">
+                            <option> DAO
+                            <option> SGBD
+                            <option> Internet
+                            <option> Infosec
+                            <option> bigdata
+
+                        </select>
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>Langue optionelle</td><br>
+                    <td> <!-- anglais -->
+                     <input type="checkbox" id="en" name="anglais" value="eng">
+                     <label for="en">Anglais</label>
+                     <!-- deutsh -->
+                     <input type="checkbox" id="al" name="allemand" value="all">
+                     <label for="en">Allemand</label>
+<!-- italein --> 
+<input type="checkbox" id="it" name="italien" value="itl">
+                        <label for="en">Italien</label><br> <br>
+
+                    </tr>
+
+                <tr>
+                    <td></td>
+                    <td> <input type="button" value="Envoyer"> </td>
+                    <td> <input type="button" value="Effacer"> </td>
+                </tr> 
+
+            </table> 
+        </form>
+    </body>
+
+</html>
