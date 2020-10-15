@@ -2,6 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <title>form | Homework</title>
+        <script type="text/javascript" src="form.js"></script>
     </head>
 
     <body>
@@ -57,16 +58,16 @@
                 </tr>
                 <br>
                 <tr>
-                    <td>Langue optionelle</td><br>
-                    <td> <!-- anglais -->
+                     <td>Langue optionelle</td><br>
+                     <td> <!-- anglais -->
                      <input type="checkbox" id="en" name="anglais" value="eng">
                      <label for="en">Anglais</label>
                      <!-- deutsh -->
                      <input type="checkbox" id="al" name="allemand" value="all">
                      <label for="en">Allemand</label>
-<!-- italein --> 
-<input type="checkbox" id="it" name="italien" value="itl">
-                        <label for="en">Italien</label><br> <br>
+                     <!-- italien --> 
+                     <input type="checkbox" id="it" name="italien" value="itl">
+                     <label for="en">Italien</label><br> <br>
 
                     </tr>
 
@@ -75,9 +76,34 @@
                     <td> <input type="button" value="Envoyer"> </td>
                     <td> <input type="button" value="Effacer"> </td>
                 </tr> 
+                <tr>
+                   <td></td> 
+                </tr>
+
+<tr>
+    <td></td>
+    <td><button type ="button" onclick="viewSource()">View Source</button></td>
+
+
 
             </table> 
         </form>
+
+
+<script>
+ function viewSource(){;
+    var source = "<html>";
+    source += document.getElementsByTagName('html')[0].innerHTML;
+    source += "</html>";
+    source = source.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    source = "<pre>"+source+"</pre>";
+    sourceWindow = window.open('','Source of page','height=800,width=800,scrollbars=1,resizable=1');
+    sourceWindow.document.write(source);
+    sourceWindow.document.close(); 
+    if(window.focus) sourceWindow.focus();
+}       
+
+</script>
     </body>
 
 </html>
