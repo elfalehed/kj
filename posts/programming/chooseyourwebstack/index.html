@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177223098-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177223098-1');
+</script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Web - How to choose your web stack (part1) | KMx404</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="programming - How to choose your web stack?" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="How to choose your web stack" />
+<meta property="og:description" content="How to choose your web stack ? - KMx404" />
+<link rel="canonical" href="https://KMx404.github.io/posts/programming/chooseyourwebstack/" />
+<meta property="og:url" content="https://KMx404.github.io/posts/programming/chooseyourwebstack/" />
+<meta property="og:site_name" content="KMx404" />
+<meta property="og:image" content="https://KMx404.github.io/images/programming/howtochooseyourwebstack/thumbnail.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-09-02T00:00:00+02:00" />
+<script type="application/ld+json">
+{"description":"How to choose your web stack ","@type":"BlogPosting","url":"https://KMx404.github.io/posts/programming/chooseyourwebstack/","image":"https://KMx404.github.io/images/programming/howtochooseyourwebstack/thumbnail.png","headline":"Programming - How to choose your stack","dateModified":"2019-12-19T00:00:00+02:00","datePublished":"2020-12-02T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://KMx404.github.io/posts/programming/chooseyourwebstack/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/ad.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/png" href="/assets/favicon.png" /><link type="application/atom+xml" rel="alternate" href="https://KMx404.github.io/feed.xml" title="KMx404" /><script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+</head><!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+<body><div class="site-header">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">KMx404<b class="command_prompt"></b><b class="blinking_cursor">_</b></a>
+    <span class="social_links">
+         <a class="color-cyan-hover" href="https://twitter.com/KMx404/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a><a class="color-blue-hover" href="https://facebook.com/KMx404/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a><a class="color-purple-hover" href="https://github.com/KMx404" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a><a class="color-orange-hover" href="https://www.reddit.com/user/KMx404" target="_blank" rel="noopener noreferrer"><i class="fab fa-reddit"></i></a><a class="color-cyan-hover" href="https://discordapp.com/users/623585940622934016" target="_blank" rel="noopener noreferrer"><i class="fab fa-discord"></i></a>
+        <a class="color-red-hover" href="mailto:KMx404@protonmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope"></i></a>
+        <a class="color-red-hover" href="https://dev.to/kmx404" target="_blank" rel="noopener noreferrer">
+  <i class="fab fa-dev" title="kmx404's DEV Profile"></i> </a>
+
+    </span>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="author-box">
+		<img src="/avatar.png" class="author-avatar">
+<h7>
+	Mohamed E.Faleh<br>
+	Programmer/Tech enthusiast.  <br>
+	Content Creator interested in sharing knowledge in tech
+</h7>
+</div>
+  <br>
+<div class="post">
+  <h1 class="post-title">web - How to choose your web stack?</h1>
+  
+  <div class="post-tags">
+      
+      <a class="tag" href="/tag/programming/">Programming</a>
+            <a class="tag" href="/tag/web/">Web</a>
+
+      
+  </div>
+  
+  <div class="post-date">Published on 03 Nov 2020</div>
+  
+  <div class="post-description">How can you choose your web stack?</div>
+  
+  <hr>
+
+<h2 id="quick-summary">Note:</h2>
+<p>&#9995;What am about to show you is a few examples and tips that `may` help you choose your webstack. You're not obliged to follow any of my tips!</p>
+<br>
+<hr>
+<img src="/images/programming/howtochooseyourwebstack/thumbnail.png" alt=""><br> <br>
+<p><b><i>What's a software stack and web stack?</i></b></p>
+<p>In computing, a software stack is a set of software subsystems or components needed to create a complete platform such that no additional software is needed to support applications. Applications are said to "run on" or "run on top of" the resulting platform.</p>
+<p>A web stack, also called a web application stack, is a compilation of software set up especially for implementing websites and web applications. For example, to develop a web application the architect defines the stack as the target: operating system, web server, database, and programming language. </p>
+<br> 
+<p><i>We're going to divide the web stacks into two parts the `Front-end stack` and the `Back-end stack`</i></p> 
+<p>We're going to start with the Front-end and in the next article, we'll talk about the back-end stack</p>
+
+<h2 id="1">Front-end Stack</h2>
+<p>Talking about web development stacks that may differ from a framework to the other, But there are some basic technologies that present the web as we know it:</p>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>SCSS</li>
+  <li>SASS</li>
+</ul>
+<p>What i just mentioned are just the basics core of the front-end stack Any modern website should contain some CSS,SCSS and JavaScript. What varies are the used libraries and Frameworks. Which we're going to talk about Next.</p>
+
+<br>
+<h2 id="1">How do I choose a front-end framework?</h2>
+<p>It is hard to find a suitable framework for your use. Specially when you have no idea How to pick?</p>
+<p>What should you consider when you're trying to choose a front-end framework?:</p>
+<ul>
+  <li>
+    <p><b>The License:</b></p>
+      <p>Before you start developing with a framework, see what kind of license the framework is distributed under. While most licenses are pretty liberal to work with and lets you create commercial applications, some of them are not so generous. The last thing you'd want is to create an entire application only to find out that the license doesn't allow you to distribute it commercially. Better do your research before than suffering after.</p>
+  </li>
+  <li>
+    <p><b>The Community:</b></p>
+    <p>Inevitably, even with proper documentation, you are going to run into errors to rectify which, you are going to have to ask the community behind the framework for help. I've personally interacted with communities which vitriolically attacked programmers new to the framework and sneered at them while on the other extreme I've seen communities cheerfully welcomes newbies and teach them the tricks of the trade.</p>
+  </li>
+  <li>
+  <p><b>Its Documentations:</b></p>
+  <p>A framework's documentation is often key to its success. Well explained, detailed documentation draws in the power users and evangelists who then bring in more people. With shoddy, confusing documentation people are going to just walk off confused and annoyed.</p> 
+</li>
+  <li>
+    <p><b>Software Pattern:</b></p>
+    <p>You need to put your mind into the Sofware pattern. Almost every framework out there execlusively uses the MVC pattern.which stands for Model-View-Controller, helps you keep your data: the model, the logic: the controller and the user interface: the view, separate from each other. This in turn lets you write better, tighter code which ultimately results in better applications.</p>
+<p>Just because almost everyone uses MVC doesn't mean that is everything you need to know though. There are a couple of variants including MVP: Model-View-Presenter, MVA: Model-View-Adapter and AVC: Application-View-Controller. </p>
+</li>
+<li>
+  <p><b>Hosting Requirements:</b></p>
+  <p>As web developers, we may be inclined to building applications on cutting edge platforms but often the need and budget of the client comes first. Often it may be out of the budget to get a dedicated host to place our applications on and we'll have to settle with shared hosting with normal modules and settings.</p>
+</li>
+<li>
+  <p><b>Test to know!</b></p>
+  <p>You can't fully know that your decision is well-based unless you can really test the Framework even for a little while Before diving in.. </p>
+  <p>Taking a consideration all what I just said earlier and build your final mind conculded by the test you make.</p>
+</li>
+
+<br>
+<br>
+
+<p><b>Next article, we're going to talk about the Back-end stacks. STAY TUNED :D </b></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br>
+	<br>
+	<br>
+ <h2>All Tags</h2>
+  <div class="tag-cloud">
+ <a href="/tag/cryptography/" class="set-1">Cryptography</a> <a href="/tag/linux/" class="set-2">Linux</a> <a href="/tag/python/" class="set-1">Python</a> <a href="/tag/hacking/" class="set-2">Hacking</a> <a href="/tag/tools/" class="set-2">Tools</a> <a href="/tag/programming/" class="set-1">Programming</a>
+	  <a href="/tag/web/" class="set-1">Web</a> <a href="/tag/tutorials/" class="set-1">Tutorials</a> 
+	  <a href="/tag/networks/" class="set-1">Networks</a> <a href="/tag/hardware/" class="set-1">Hardware</a> 
+    <a href="/tag/ai/" class="set-1">Ai</a>
+</div>
+
+
+
+      </div>
+    </main><footer class="site-footer">
+  <div class="wrapper">
+<div class="toggleWrapper">
+    <input type="checkbox" class="dn" id="theme-toggle" onclick="modeSwitcher()" checked>
+    <label for="theme-toggle" class="toggle">
+    <span class="toggle__handler">
+      <span class="crater crater--1"></span>
+      <span class="crater crater--2"></span>
+      <span class="crater crater--3"></span>
+    </span>
+        <span class="star star--1"></span>
+        <span class="star star--2"></span>
+        <span class="star star--3"></span>
+        <span class="star star--4"></span>
+        <span class="star star--5"></span>
+        <span class="star star--6"></span>
+    </label>
+</div>
+<script type="text/javascript">
+if (localStorage.getItem("theme") === null) {
+    window.localStorage.setItem('theme', 'dark');
+}
+const theme = localStorage.getItem('theme');
+if (theme === "dark") {
+	document.documentElement.setAttribute('data-theme', 'dark');
+}
+const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');
+if (theme === "dark") {
+    document.getElementById('theme-toggle').checked = true;
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.documentElement.classList.add('theme--dark');
+    document.documentElement.classList.remove('theme--light');
+	document.getElementById("theme-toggle").className = 'light';
+} else if (theme === "light") {
+    document.getElementById('theme-toggle').checked = false;
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.documentElement.classList.add('theme--light');
+    document.documentElement.classList.remove('theme--dark');
+	document.getElementById("theme-toggle").className = 'dark';
+} else if  (userPrefers === "dark") {
+    document.getElementById('theme-toggle').checked = false;
+    document.documentElement.setAttribute('data-theme', 'dark');
+	document.documentElement.classList.add('theme--dark');
+    document.documentElement.classList.remove('theme--light');
+	window.localStorage.setItem('theme', 'dark');
+	document.getElementById("theme-toggle").className = 'light';
+} else {
+    document.getElementById('theme-toggle').checked = true;
+    document.documentElement.setAttribute('data-theme', 'light');
+	document.documentElement.classList.add('theme--light');
+    document.documentElement.classList.remove('theme--dark');
+	window.localStorage.setItem('theme', 'light');
+	document.getElementById("theme-toggle").className = 'dark';
+}
+function modeSwitcher() {
+	let currentMode = document.documentElement.getAttribute('data-theme');
+	if (currentMode === "dark") {
+	    document.documentElement.setAttribute('data-theme', 'light');
+		document.documentElement.classList.add('theme--light');
+        document.documentElement.classList.remove('theme--dark');
+		window.localStorage.setItem('theme', 'light');
+	    document.getElementById("theme-toggle").className = 'dark';
+	} else {
+	    document.documentElement.setAttribute('data-theme', 'dark');
+		document.documentElement.classList.add('theme--dark');
+        document.documentElement.classList.remove('theme--light');
+		window.localStorage.setItem('theme', 'dark');
+	    document.getElementById("theme-toggle").className = 'light';
+	}
+}
+</script>
+</div>
+  
+</footer>
+
+
+<script>
+      window.FontAwesomeConfig = {
+        searchPseudoElements: true
+      }
+    </script>
+  </body>
+
+</html>  
